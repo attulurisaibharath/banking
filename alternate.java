@@ -7,6 +7,7 @@ class Bank{
 public class Main
 {
 	public static void main(String[] args) {
+		
 		System.out.println("Welcome to boda bank");
 	    System.out.println("Please note that Your password is a single digit integer");
 	    Scanner obj= new Scanner(System.in);
@@ -20,6 +21,8 @@ public class Main
 	    }
 	    else if(password>10 || password<10)
 	    System.out.println("You have typed an incorrect password");
+		
+		System.out.println("Thank you for your business");
 	    
 		
 	}
