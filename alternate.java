@@ -7,6 +7,7 @@ class Bank{
 public class Main
 {
 	public static void main(String[] args) {
+		System.out.println("Welcome to boda bank");
 	    System.out.println("Please note that Your password is a single digit integer");
 	    Scanner obj= new Scanner(System.in);
 	    System.out.print("Please type your password user:");
